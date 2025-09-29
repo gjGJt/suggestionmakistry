@@ -8,7 +8,7 @@ import axios from "axios";
  */
 const baseURL =
   import.meta.env.VITE_API_URL ||
-  "http://localhost:8000";           // fallback for dev
+  "https://makistry-backend.vercel.app";           // fallback for production
 
 export const api = axios.create({
   baseURL,
